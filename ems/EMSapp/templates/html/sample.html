@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>static</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+	<!--<script type="text/javascript">
+		alert('Hi Welcome User')
+	</script>-->
+	<script type="text/javascript" src="{% static 'js/style.js' %}"></script>
+</head>
+<body>
+	<h3>Registration</h3>
+	<form>
+		<label>Employee Id</label>
+		<input type="text" name="" placeholder="Id"><br>
+		<label>Employee Name</label>
+		<input type="text" name=""><br>
+		<label>Employee Email</label>
+		<input type="email" name=""><br>
+		<label>Employee Age</label>
+		<input type="number" name=""><br><br>
+		<button>Clear</button>
+		<button id="t">Submit</button>
+	</form>
+
+</body>
+</html>
